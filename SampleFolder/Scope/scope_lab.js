@@ -28,3 +28,13 @@ function show(){
     console.log(functionVar); // Throws ReferenceError
     console.log(functionLet); // Throws ReferenceError
     console.log(functionConst); // Throws ReferenceError
+
+    {
+        var varA = "var";
+        let letB = "let";
+        const constC = "const";
+
+        varA = "variable using var";
+        letb = "variable using let";
+        constC = "warning";
+    }
